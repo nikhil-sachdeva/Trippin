@@ -1,0 +1,145 @@
+_id,name,lat,lang,simple_acc,fatal_acc,danger_points,zone,danger_index
+1,Mukundpur,28.7405,77.1819,16,10,31,chandnichowk,10
+2,Outer Ring Road,28.737,77.1689,9,10,24,northeast,7.741935484
+3,Azadpur,28.7103,77.1752,10,9,23.5,chandnichowk,7.580645161
+4,Bhalswa,28.7573,77.1544,6,9,19.5,northwest,6.290322581
+5,Burari Chowk,28.7551,77.1988,15,8,27,northeast,8.709677419
+6,Britannia Chowk,28.6832,77.1464,5,8,17,chandnichowk,5.483870968
+7,Siraspur,28.7619,77.1391,5,8,17,northwest,5.483870968
+8,Shani Mandir,28.8427,77.1246,1,8,13,northwest,4.193548387
+9,Delhi Gate,28.6406,77.2418,12,7,22.5,chandnichowk,7.258064516
+10,Shahdara Flyover,28.6758,77.2974,6,7,16.5,east,5.322580645
+11,Madipur,28.6764,77.1195,15,6,24,west,7.741935484
+12,Mukarba Chowk,28.7368,77.1602,12,6,21,northeast,6.774193548
+13,Mahipalpur Flyover,28.5456,77.1226,12,6,21,chandnichowk,6.774193548
+14,ISBT Kashmere Gate,28.6673,77.2294,9,6,18,chandnichowk,5.806451613
+15,Gajipur Road,25.5379,81.0676,8,6,17,east,5.483870968
+16,Peeragarhi Chowk,28.6796,77.0961,9,5,16.5,chandnichowk,5.322580645
+17,Vikaspuri Flyover,28.6493,77.0854,9,5,16.5,west,5.322580645
+18,Punjabi Bagh Chowk,28.6735,77.1403,7,5,14.5,west,4.677419355
+19,"Bharati Vidyapeeth University",28.6768,77.1127,6,5,13.5,west,4.35483871
+20,Udyog Nagar,28.6816,77.0924,6,5,13.5,northwest,4.35483871
+21,Bhairon Mandir,28.5482,77.2565,6,5,13.5,south,4.35483871
+22,Nigambodh Ghat,28.6647,77.2369,4,5,11.5,chandnichowk,3.709677419
+23,prakash vihar,28.7553,77.106,4,5,11.5,east,3.709677419
+24,Sanjay Gandhi Transport Nagar,28.7387,77.15,4,5,11.5,northwest,3.709677419
+25,Singhu Border,28.8562,77.125,3,5,10.5,northwest,3.387096774
+26,Haiderpur Badli Mor,28.73,77.1492,3,5,10.5,northwest,3.387096774
+27,Rohini sector 23 Road,28.7177,77.077,0,5,7.5,northwest,2.419354839
+28,Shastri Park,28.6683,77.2503,19,4,25,chandnichowk,8.064516129
+29,Khazoori Khas,28.71,77.2604,17,4,23,northeast,7.419354839
+30,Majnu Ka Tilla,28.7003,77.2276,14,4,20,northeast,6.451612903
+31,Mangolpuri Flyover,28.6984,77.1205,11,4,17,northwest,5.483870968
+32,Dharampura,28.6039,77.0003,10,4,16,west,5.161290323
+33,Main Ashram Chowk,28.5725,77.2583,9,4,15,south,4.838709677
+34,Khanpur,28.5093,77.2309,8,4,14,south,4.516129032
+35,Maa Anand Mai Service Station,28.6138,77.3094,7,4,13,south,4.193548387
+36,Adarsh Nagar,28.7193,77.1736,7,4,13,chandnichowk,4.193548387
+37,Geeta Institute,30.0448,76.8744,7,4,13,northwest,4.193548387
+38,Inderlok Metro Station,28.6733,77.17,7,4,13,northwest,4.193548387
+39,Paradise Plaza,28.5429,77.1236,7,4,13,west,4.193548387
+40,Sarita Vihar,28.528,77.2898,6,4,12,south,3.870967742
+41,Kakrola More,28.6197,77.025,6,4,12,west,3.870967742
+42,Delhi Noida Direct Flyway,28.5767,77.2869,6,4,12,south,3.870967742
+43,Chirag Delhi Flyover,28.5418,77.2289,5,4,11,south,3.548387097
+44,Nangli Puna,28.7716,77.1461,5,4,11,west,3.548387097
+45,Fun N Food Village,28.5237,77.0837,4,4,10,east,3.225806452
+46,Rajdhani Park,28.6823,77.044,4,4,10,northwest,3.225806452
+47,Bakoli Bus Stand,28.8115,77.1356,3,4,9,northwest,2.903225806
+48,Surya Nagar Red Light,28.6678,77.3219,3,4,9,east,2.903225806
+49,Santom Hospital,28.714,77.1384,3,4,9,northwest,2.903225806
+50,Kalindi Kunj Rd,28.5561,77.2976,3,4,9,south,2.903225806
+51,Murga Mandi Masjid,28.6277,77.331,3,4,9,east,2.903225806
+52,Mukarba Chowk,28.7352,77.156,3,4,9,northeast,2.903225806
+53,Patparganj,28.62,77.2924,2,4,8,east,2.580645161
+54,Tikri Khurd,28.8352,77.1182,2,4,8,northwest,2.580645161
+55,Govind Ballabh Pant Hospital,28.6387,77.2347,2,4,8,northeast,2.580645161
+56,ICD Tughlakabad,28.5093,77.2822,2,4,8,south,2.580645161
+57,Jain Mandir,28.7221,77.1599,1,4,7,chandnichowk,2.258064516
+58,Nirankari Colony,28.7165,77.2064,15,3,19.5,chandnichowk,6.290322581
+59,Nirankari Colony,28.7165,77.2064,15,3,19.5,chandnichowk,6.290322581
+60,Shastri Nagar Metro Station,28.6704,77.1805,14,3,18.5,chandnichowk,5.967741935
+61,Jaitpur,28.509,77.3203,12,3,16.5,south,5.322580645
+62,Chhatra Marg,28.6938,77.2121,11,3,15.5,northwest,5
+63,Wazirabad,28.7336,77.219,10,3,14.5,northwest,4.677419355
+64,Tahirpur Red Light,28.6877,77.3206,8,3,12.5,east,4.032258065
+65,Nawada Village,28.3893,77.2606,8,3,12.5,west,4.032258065
+66,Lajpat Nagar Flyover,28.5654,77.2467,8,3,12.5,new,4.032258065
+67,AIIMS,28.5689,77.2133,8,3,12.5,new,4.032258065
+68,Uttam Nagar,28.6213,77.0613,8,3,12.5,west,4.032258065
+69,Nangloi Water treatment Plant,28.6703,77.051,8,3,12.5,northwest,4.032258065
+70,Mayur Vihar Extension,28.5942,77.2947,7,3,11.5,east,3.709677419
+71,D Mall,28.6929,77.1526,7,3,11.5,chandnichowk,3.709677419
+72,Seemapuri,28.691,77.327,7,3,11.5,northeast,3.709677419
+73,Moti Bagh Flyover,28.5804,77.1751,7,3,11.5,south,3.709677419
+74,Munirka,28.5532,77.1745,7,3,11.5,south,3.709677419
+75,Vinod Nagar East,28.6229,77.3087,7,3,11.5,east,3.709677419
+76,Rohtak Road,28.6822,77.0528,7,3,11.5,northwest,3.709677419
+77,Libaspur,28.7509,77.146,7,3,11.5,northwest,3.709677419
+78,Khichripur,28.6205,77.3159,6,3,10.5,east,3.387096774
+79,Police Station Anand Vihar Railway Station,28.648,77.3148,6,3,10.5,new,3.387096774
+80,Naraina,28.6321,77.1389,6,3,10.5,west,3.387096774
+81,Azadpur Bus Pass Office,28.707,77.1781,5,3,9.5,chandnichowk,3.064516129
+82,Gazipur Dairy Farm,28.62,77.321,5,3,9.5,east,3.064516129
+83,Raja Puri,28.6057,77.0557,5,3,9.5,west,3.064516129
+84,Janak Cinema,28.611,77.0931,5,3,9.5,west,3.064516129
+85,Radisson Blu New Delhi Dwarka,28.5964,77.0361,4,3,8.5,west,2.741935484
+86,Kabutar Market,28.6522,77.2368,4,3,8.5,chandnichowk,2.741935484
+87,Govindpuri Metro Station,28.5445,77.2643,4,3,8.5,south,2.741935484
+88,yamuna Bridge,28.6007,77.2618,3,3,7.5,east,2.419354839
+89,Hanuman mandir,28.6344,77.1743,3,3,7.5,new,2.419354839
+90,Gurudwara Bangla Sahib,28.6255,77.2094,3,3,7.5,new,2.419354839
+91,Dheerpur Wetland Park,28.718,77.2145,3,3,7.5,northwest,2.419354839
+92,Abhinandan Vatika,28.6172,76.9758,3,3,7.5,west,2.419354839
+93,Sagarpur Bus Stop,22.5909,87.7541,2,3,6.5,east,2.096774194
+94,Naraina Village,28.6181,77.1366,2,3,6.5,west,2.096774194
+95,Outer Ring Road,28.6937,77.1032,2,3,6.5,west,2.096774194
+96,Talkatora Stadium Bus Stop,28.6264,77.1964,2,3,6.5,new,2.096774194
+97,Sarita Vihar Metro Station,28.5298,77.2881,2,3,6.5,south,2.096774194
+98,Palam Dabri Marg,28.6039,77.0828,2,3,6.5,east,2.096774194
+99,Punjbi Bagh Shamshan Ghat Ambulance Service,28.6732,77.1398,2,3,6.5,west,2.096774194
+100,Power House Dwarka,28.6024,77.0705,2,3,6.5,east,2.096774194
+101,Wazirpur Depot,28.6919,77.1534,2,3,6.5,west,2.096774194
+102,Welcome,28.6717,77.2777,2,3,6.5,chandnichowk,2.096774194
+103,Thimayya Marg,28.585,77.1262,1,3,5.5,new,1.774193548
+104,Pragati Maidan Gate Number 5,28.6176,77.2405,1,3,5.5,new,1.774193548
+105,Apollo Hospital,28.54,77.2826,1,3,5.5,new,1.774193548
+106,Palam Flyover,28.5605,77.1699,1,3,5.5,east,1.774193548
+107,Nangal Village,28.6071,77.1147,1,3,5.5,new,1.774193548
+108,C - Hexagon,28.6128,77.2346,0,3,4.5,new,1.451612903
+109,Bharat Petroleum,28.6346,77.3154,0,3,4.5,east,1.451612903
+110,Badarpur Toll Booth,28.49,77.3046,12,2,15,northwest,4.838709677
+111,Pushta Road,28.7122,77.2572,10,2,13,east,4.193548387
+112,Shahbad Dairy,28.7421,77.1032,10,2,13,northwest,4.193548387
+113,Outer Ring Road,28.7218,77.2169,10,2,13,northeast,4.193548387
+114,Seelampur,28.664,77.2712,9,2,12,east,3.870967742
+115,Anand Vihar ISBT Terminal,28.6459,77.3147,9,2,12,east,3.870967742
+116,Moolchand,28.564,77.2342,9,2,12,south,3.870967742
+117,Wazirabad Road,28.7014,77.2871,9,2,12,northeast,3.870967742
+118,Suraj Kund Crossing,28.5014,77.2903,9,2,12,south,3.870967742
+119,5th Pustha Road,28.6962,77.2577,9,2,12,east,3.870967742
+120,Swaroop Nagar,28.7604,77.1491,9,2,12,northeast,3.870967742
+121,Rajokri,28.5125,77.111,9,2,12,west,3.870967742
+122,Haiderpur,28.7225,77.1447,9,2,12,northwest,3.870967742
+123,Tis Hazari,28.6646,77.2149,8,2,11,chandnichowk,3.548387097
+124,Azadpur Mandi,28.7128,77.1708,8,2,11,chandnichowk,3.548387097
+125,Motor Driving Training School,28.6148,77.0824,8,2,11,east,3.548387097
+126,Desh Bandhu Gupta Road,28.6443,77.2162,8,2,11,new,3.548387097
+127,Raj Ghat,28.6406,77.2495,8,2,11,chandnichowk,3.548387097
+128,Jagat Puri,28.6485,77.293,13,1,14.5,east,4.677419355
+129,Road Number 57,28.6728,77.128,13,1,14.5,east,4.677419355
+130,Dr. Ram Manohar Lohia Hospital,28.6257,77.2027,13,1,14.5,new,4.677419355
+131,Vikas Marg,28.6292,77.2753,12,1,13.5,east,4.35483871
+132,Okhla Estate Marg,28.5398,77.2788,11,1,12.5,south,4.032258065
+133,Ring Road,28.6481,77.2534,11,1,12.5,chandnichowk,4.032258065
+134,Okhla More,28.5054,77.2778,10,1,11.5,south,3.709677419
+135,Hyatt Hotel,28.5701,77.1859,10,1,11.5,new,3.709677419
+136,Shamshan Ghat,28.6547,77.2643,10,1,11.5,east,3.709677419
+137,Kewal Park,28.7135,77.178,9,1,10.5,northeast,3.387096774
+138,Goyla Dairy,28.5798,77.0215,9,1,10.5,west,3.387096774
+139,Bus Stop,28.4374,77.0347,9,1,10.5,new,3.387096774
+140,Sector-1 Bypass,28.5996,77.0732,9,1,10.5,west,3.387096774
+141,R.K. Puram Sector 1,28.5642,77.1802,11,0,11,new,3.548387097
+142,DTC Nand Nagri Depot,28.6985,77.3056,11,0,11,east,3.548387097
+143,Loni Road Crossing,28.7015,77.2917,10,0,10,east,3.225806452
+144,Gagan Cinema,28.6953,77.315,10,0,10,east,3.225806452

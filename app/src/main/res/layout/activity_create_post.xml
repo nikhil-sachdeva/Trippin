@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <com.libizo.CustomEditText
+            android:id="@+id/caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Caption"
+            android:inputType="textAutoComplete"
+            android:text=""
+            app:libIZO_clearIconTint="#8f1f15"
+            app:libIZO_setBorderColor="#8f1f15"
+            app:libIZO_setBorderView="true"
+            app:libIZO_setClearIconVisible="true"
+            app:libIZO_setCornerRadius="4dp"
+            app:libIZO_setStrokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attach Image" />
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/add" />
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Location" />
+
+        <LinearLayout
+            android:focusable="true"
+            android:clickable="true"
+            android:id="@+id/l1"
+            android:background="#c2c2c2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+<ImageView
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/location_current"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Current Location" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:background="#c2c2c2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Location Manually" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/postit"
+        android:src="@drawable/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="34dp" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black">
+    <item
+        android:id="@+id/navigation_item"
+        android:icon="@drawable/ic_drive"
+        android:title="Navigation" />
+    <item
+        android:id="@+id/danger_item"
+        android:icon="@drawable/ic_warning"
+        android:title="Danger" />
+    <item
+        android:id="@+id/posts_item"
+        android:icon="@drawable/ic_posts"
+        android:title="Posts" />
+    <item
+        android:id="@+id/help_item"
+        android:icon="@drawable/ic_nearby"
+        android:title="Help" />
+</menu>

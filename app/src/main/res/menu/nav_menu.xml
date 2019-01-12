@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+<item android:id="@+id/danger_pred"
+    android:title="My Danger Index"
+    android:icon="@drawable/ic_error"
+    app:showAsAction="ifRoom"/>
+    <item android:id="@+id/posts"
+        android:title="Posts"
+        android:icon="@drawable/ic_insert"
+        app:showAsAction="ifRoom" />
+        <item android:id="@+id/help_nav"
+            android:title="Help"
+            android:icon="@drawable/ic_priority_high_black_24dp"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@+id/menu_bottom" android:checkableBehavior="single">
+    <item android:id="@+id/nav_logout"
+
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom"/>
+    </group>
+</menu>

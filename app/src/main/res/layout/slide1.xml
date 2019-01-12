@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           app:cardBackgroundColor="#563489">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="90dp"
+                    android:text="Get the Safest Route!"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="160dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="See real danger index and get the safest path to your destination"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+        </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
