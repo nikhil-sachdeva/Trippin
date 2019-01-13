@@ -36,15 +36,22 @@ public class DangerNotifReceiver extends BroadcastReceiver {
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-            return;
+//            return;
         }
         mFusedLocationClient.getLastLocation()
                 .addOnSuccessListener((Activity) context, new OnSuccessListener<Location>() {
                     @Override
                     public void onSuccess(Location location) {
+
+                        double lat, lang;
                         if (location != null) {
-                            double lat = location.getLatitude();
-                            double lang = location.getLongitude();
+                            lat = location.getLatitude();
+                            lang = location.getLongitude();
+                        }
+                        else {
+                            lat = 28.7324;
+                            lang = 77.1442;
+                        }
                             String name = null;
                             Geocoder gcd = new Geocoder(context, Locale.getDefault());
                             try {
@@ -58,7 +65,10 @@ public class DangerNotifReceiver extends BroadcastReceiver {
                             RoutesTask routesTask = new RoutesTask(context);
                             try {
                                 double MyIndex = routesTask.getDangerIndex(new GeoPoint(lang, lat));
+                                Log.i("MyLogs", "MyIndex: "+MyIndex);
+
                                 if(MyIndex>=5){
+                                    Log.i("MyLogs", "MyIndex is greater");
                                     PendingIntent pIntent = PendingIntent.getActivity(context, 0, intent,
                                             PendingIntent.FLAG_UPDATE_CURRENT);
 
@@ -97,9 +107,7 @@ public class DangerNotifReceiver extends BroadcastReceiver {
 
                         }
 
-                    }
-                });
-
+                    });
 
     }
 }

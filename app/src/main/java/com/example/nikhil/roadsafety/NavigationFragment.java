@@ -7,11 +7,16 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.text.style.MaskFilterSpan;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
+import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.gms.maps.model.LatLng;
 import com.mmi.LicenceManager;
 import com.mmi.MapView;
 import com.mmi.MapmyIndiaMapView;
@@ -20,6 +25,8 @@ import com.mmi.layers.Marker;
 import com.mmi.layers.PathOverlay;
 import com.mmi.util.GeoPoint;
 
+import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import static android.app.Activity.RESULT_OK;
@@ -122,11 +129,9 @@ public class NavigationFragment extends Fragment {
             }
         });
 
-        GeoPoint home = new GeoPoint(28.6129, 77.2295);
+        GeoPoint home = new GeoPoint(28.54717020, 77.1980858);
 
-        addMarker(new GeoPoint(home.getLatitude()-0.0001, home.getLatitude()-0.00001));
-
-//        mMapView.setCenter(new GeoPoint(home.getLatitude()-0.0001, home.getLatitude()-0.0001));
+        mMapView.setCenter(home);
         mMapView.setZoom(14);
         addMarker(home);
 
