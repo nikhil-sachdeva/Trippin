@@ -165,7 +165,10 @@ public class CreatePost extends AppCompatActivity {
                                 post.setCaption(caption.getText().toString());
                                 Log.d("get url", "onSuccess: "+post.getImgURI());
                                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+<<<<<<< HEAD
                                 post.setResolved("false");
+=======
+>>>>>>> a3739df53ee72974df601861b09f9a0b42d10ae4
                                 if(user!=null) {
                                     post.setName(user.getDisplayName());
                                 }

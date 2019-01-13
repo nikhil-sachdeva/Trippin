@@ -42,11 +42,16 @@ public class DangerNotifReceiver extends BroadcastReceiver {
                 .addOnSuccessListener((Activity) context, new OnSuccessListener<Location>() {
                     @Override
                     public void onSuccess(Location location) {
+
+                        double lat, lang;
                         if (location != null) {
-//                            double lat = location.getLatitude();
-//                            double lang = location.getLongitude();
-                            double lat = 28.7324;
-                            double lang = 77.1442;
+                            lat = location.getLatitude();
+                            lang = location.getLongitude();
+                        }
+                        else {
+                            lat = 28.7324;
+                            lang = 77.1442;
+                        }
                             String name = null;
                             Geocoder gcd = new Geocoder(context, Locale.getDefault());
                             try {
@@ -102,9 +107,7 @@ public class DangerNotifReceiver extends BroadcastReceiver {
 
                         }
 
-                    }
-                });
-
+                    });
 
     }
 }
