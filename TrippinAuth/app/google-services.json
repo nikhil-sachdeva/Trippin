@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "931594927154",
+    "firebase_url": "https://roadsafety-38edf.firebaseio.com",
+    "project_id": "roadsafety-38edf",
+    "storage_bucket": "roadsafety-38edf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931594927154:android:fc214835b15f0a19",
+        "android_client_info": {
+          "package_name": "com.example.nikhil.roadsafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931594927154-95eqtf2fbl4q0lud1k70dn3ggv5ljs1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikhil.roadsafety",
+            "certificate_hash": "3b28821716fcc2c2332b711e07ac6f373ffaccd5"
+          }
+        },
+        {
+          "client_id": "931594927154-q54b81icm7im9imt8jgfen1t72km3e2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__w-ENKqisn4y6sENLalD9ASQP1bvRi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931594927154-q54b81icm7im9imt8jgfen1t72km3e2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931594927154:android:4db1a79e1d72149f",
+        "android_client_info": {
+          "package_name": "com.example.nikhil.trippinauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931594927154-q54b81icm7im9imt8jgfen1t72km3e2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__w-ENKqisn4y6sENLalD9ASQP1bvRi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
