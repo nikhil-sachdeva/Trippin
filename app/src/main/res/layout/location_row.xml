@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/row_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_location"/>
+
+    <TextView
+        android:id="@+id/row_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9:00 AM"
+        android:layout_toEndOf="@id/row_icon"
+        android:layout_toStartOf="@id/row_index"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="12dp"
+        android:textColor="#80000000"
+        android:textSize="22sp"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/row_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_below="@id/row_name"
+        android:layout_alignStart="@id/row_name"
+        android:textColor="#99000000"
+        android:textSize="18sp"
+        android:textAlignment = "viewStart"
+        android:layout_toEndOf="@id/row_icon"
+        android:layout_toStartOf="@id/row_index"/>
+
+    <TextView
+        android:id="@+id/row_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="54°"
+        android:layout_marginStart="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:textColor="#000000"
+        android:textSize="42sp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

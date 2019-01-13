@@ -1,8 +1,8 @@
 package com.example.nikhil.roadsafety;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 import com.mmi.MapView;
 import com.mmi.MapmyIndiaMapView;
@@ -29,6 +29,8 @@ public class MapsActivity extends AppCompatActivity {
         GeoPoint from = new GeoPoint(intent.getDoubleExtra("from_lat", 0), intent.getDoubleExtra("from_lang", 0));
         GeoPoint to = new GeoPoint(intent.getDoubleExtra("to_lat", 0), intent.getDoubleExtra("to_lang", 0));
 
+        mMapView.setCenter(from);
+        mMapView.setZoom(14);
         addMarker(from);
         addMarker(to);
         RoutesTask findRoutesTask = new RoutesTask(MapsActivity.this, mMapView);

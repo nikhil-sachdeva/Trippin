@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574b</color>
+    <color name="colorPrimary">#FFB74D</color>
+    <color name="colorPrimaryDark">#EF6C00</color>
     <color name="colorAccent">#D81B60</color>
     <color name="baseColor">#FF9800</color>
+    <color name="tabSelcted">#E65100</color>
 
     <color name="speedColor">#ff0000</color>
     <color name="speedBackground">#e6e6fa</color>
@@ -13,6 +14,9 @@
     <color name="safeColor">#64DD17</color>
 
 <color name="blue">#448AFF</color>
+
+    <color name="navy_blue">#0E3F66</color>
+
     <!-- Screens background color-->
     <color name="bg_screen1">#f64c73</color>
     <color name="bg_screen2">#20d2bb</color>

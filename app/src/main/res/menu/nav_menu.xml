@@ -8,7 +8,7 @@
     android:icon="@drawable/ic_error"
     app:showAsAction="ifRoom"/>
     <item android:id="@+id/posts"
-        android:title="Posts"
+        android:title="Report Issues"
         android:icon="@drawable/ic_insert"
         app:showAsAction="ifRoom" />
         <item android:id="@+id/help_nav"
@@ -18,7 +18,6 @@
     </group>
     <group android:id="@+id/menu_bottom" android:checkableBehavior="single">
     <item android:id="@+id/nav_logout"
-
         android:title="Logout"
         android:icon="@drawable/ic_logout"
         app:showAsAction="ifRoom"/>

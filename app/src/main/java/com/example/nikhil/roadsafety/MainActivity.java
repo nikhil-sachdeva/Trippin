@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements DangerFragment.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+       // startActivity(new Intent(MainActivity.this,HelpActivity.class));
         user = FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
             isLogin = true;
@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements DangerFragment.On
         tabLayout = findViewById(R.id.tab_layout);
         navigationView=findViewById(R.id.nav_view);
         tabLayout.setupWithViewPager(viewPager);
+
 
        View header = navigationView.getHeaderView(0);
        TextView navText = header.findViewById(R.id.nav_text);
@@ -78,21 +79,15 @@ public class MainActivity extends AppCompatActivity implements DangerFragment.On
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-               if(menuItem.getItemId()==R.id.posts){
-                   startActivity(new Intent(MainActivity.this,PostActivity.class));
-               }
-               if(menuItem.getItemId()==R.id.nav_logout){
-                   AuthUI.getInstance()
-                           .signOut(MainActivity.this)
-                           .addOnCompleteListener(new OnCompleteListener<Void>() {
-                               public void onComplete(@NonNull Task<Void> task) {
-                                   Toast.makeText(MainActivity.this, "Logged Out", Toast.LENGTH_SHORT).show();
-                                   startActivity(new Intent(MainActivity.this,MainActivity.class));
-                               }
-                           });
-                   if(menuItem.getItemId()==R.id.help_nav){
-                        startActivity(new Intent(MainActivity.this,HelpActivity.class));
-                   }
+               switch (menuItem.getItemId()){
+                   case R.id.posts:
+                       startActivity(new Intent(MainActivity.this,PostActivity.class));
+                       return true;
+                   case R.id.danger_pred:
+                       startActivity(new Intent(MainActivity.this,DangerIndexActivity.class));
+                       return true;
+                   case R.id.help_nav:
+                       startActivity(new Intent(MainActivity.this,HelpActivity.class));
                }
 
                 return false;
@@ -167,6 +162,12 @@ public class MainActivity extends AppCompatActivity implements DangerFragment.On
     @Override
     public void onBackPressed() {
         mDrawerLayout.closeDrawers();
+    }
+
+    public static interface ITelephony {
+        boolean endCall();
+        void answerRingingCall();
+        void silenceRinger();
     }
 }
 
